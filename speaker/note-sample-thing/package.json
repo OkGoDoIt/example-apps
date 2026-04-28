@@ -1,0 +1,34 @@
+{
+  "name": "note-sample-thing",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "note-sample-thing",
+    "uuid": "975c29d9-553e-41e4-892e-4b30dfaf984f",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "C4_SAMPLE_PCM",
+          "file": "audio/c4_sample.pcm"
+        }
+      ]
+    }
+  }
+}
