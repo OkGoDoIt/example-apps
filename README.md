@@ -9,6 +9,8 @@ A bunch of example apps built by the Pebble team to demonstrate how to use the n
 - **[speaker/note-sample-thing](speaker/note-sample-thing/)** — Plays a C major scale using a PCM sample resource pitched up/down via `speaker_play_tracks` with a `SpeakerSample`.
 - **[speaker/pcm-resource-thing](speaker/pcm-resource-thing/)** — Streams a raw PCM audio resource through `speaker_stream_open` / `speaker_stream_write`, refilling the ring buffer from an `AppTimer` and showing playback progress.
 - **[speaker/polyphonic-thing](speaker/polyphonic-thing/)** — Plays a 3-voice arrangement of Ode to Joy (soprano sawtooth, alto sine, bass triangle) using `speaker_play_tracks` with multiple concurrent tracks.
+- **[music/c-watchface](music/c-watchface/)** — A C watchface that keeps the time prominent and shows the current title, artist, album, and progress using `MusicService`.
+- **[music/alloy-watchface](music/alloy-watchface/)** — The same now-playing watchface written in JavaScript using Alloy's `pebble/music` module.
 
 ## Credits
 
