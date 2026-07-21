@@ -105,3 +105,5 @@ watch.addEventListener("didFocus", focused => {
         updateProgressTimer(false);
     }
 });
+
+draw(new Date());
