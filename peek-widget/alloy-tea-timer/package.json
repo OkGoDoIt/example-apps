@@ -1,0 +1,26 @@
+{
+  "name": "tea-timer-alloy",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Tea Timer Alloy",
+    "uuid": "9B7E43F1-6A28-4C99-8E05-2D94B7C1E830",
+    "projectType": "moddable",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [],
+    "resources": {
+      "media": []
+    }
+  }
+}

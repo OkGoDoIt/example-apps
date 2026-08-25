@@ -1,0 +1,26 @@
+{
+  "name": "tea-timer-c",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Tea Timer C",
+    "uuid": "5A0FDE9C-2D8B-4E7A-9B41-6C1E83D0A27F",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [],
+    "resources": {
+      "media": []
+    }
+  }
+}
